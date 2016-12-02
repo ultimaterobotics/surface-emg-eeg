@@ -239,237 +239,6 @@
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="SMD0402-B">
-<description>&lt;h3&gt;IEC 7351 0402 (1005) - nominal&lt;/h3&gt;
-&lt;p&gt;
-Unpolarised SMD 0402 (1005 metric) footprint, variant B. 
-Pads are considered as nominal (tolerances are not accounted) to keep pads at reasonable size. 
-&lt;/p&gt;
-
-&lt;p&gt;
-Center of pads is at &amp;plusmn;0.5 mm, pad size is 0.35 mm toe and heel, 0.05 mm side. Placement courtyard (keepout area) area is 0.25 mm from pads. Silkscreen has 0.12 mm width, refdes has height of 1.2 mm. Silkscreen is intentionally 0.18 mm away from pads instead of recommended 0.12 mm to keep silkscreen clear of soldermask opening.  Refdes is in center of component and must be placed outside component or deleted after layout has been confirmed. Assembly picture outline is drawn at placement courtyard with line width of 0.12 mm.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-Silkscreen is in tPlace layer.
-&lt;/li&gt;
-&lt;li&gt;
-Refdes for silkscreen is in tNames layer.
-&lt;/li&gt;
-&lt;li&gt;
-Assembly picture (incl. refdes) is in tDocu layer
-&lt;/li&gt;
-&lt;li&gt;
-3D outline is in Measure layer.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Please see &lt;a href = "http://www.pcblibraries.com/downloads/Guidelines!PCB_Design_Optimization_Starts_in_the_CAD_Library.asp"&gt; this document &lt;/a&gt; for details.
-&lt;/p&gt;</description>
-<wire x1="-0.245" y1="0.219" x2="0.245" y2="0.219" width="0.06" layer="47"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.06" layer="47"/>
-<smd name="1" x="-0.5" y="0" dx="0.7" dy="0.6" layer="1" roundness="10"/>
-<smd name="2" x="0.5" y="0" dx="0.7" dy="0.6" layer="1" roundness="10"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="47"/>
-<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="47"/>
-<rectangle x1="-1.1" y1="-0.55" x2="1.1" y2="0.55" layer="39"/>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="0.3" y1="0.48" x2="-0.3" y2="0.48" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="-0.48" x2="0.3" y2="-0.48" width="0.127" layer="21"/>
-<wire x1="-1.04" y1="0.49" x2="1.04" y2="0.49" width="0.127" layer="51"/>
-<wire x1="1.04" y1="0.49" x2="1.04" y2="-0.49" width="0.127" layer="51"/>
-<wire x1="1.04" y1="-0.49" x2="-1.04" y2="-0.49" width="0.127" layer="51"/>
-<wire x1="-1.04" y1="-0.49" x2="-1.04" y2="0.49" width="0.127" layer="51"/>
-<text x="0" y="0" size="0.5" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="SMD0603-A">
-<description>&lt;h3&gt;IPC-7351-C compliant smd 0603 (1608 metric) footprint, variant A&lt;/h3&gt;
-&lt;p&gt;
-Variant A has large pads and placement courtyard, ideal for handsoldering. Footprint might cause tombstoning on reflow soldering process due to large pads compared to component size. This footprint should be selected only for sparsely populated designs and designs where joint needs to be robust.
-&lt;/p&gt;
-&lt;p&gt;
-Origin is in middle of component, pin 1 is at left. Component is not polarized
-&lt;/p&gt;
-&lt;p&gt;
-Pads have 0.55 mm toes, 0.45 mm heels and 0.05 mm sides. Tolerances of body dimensions are not considered to keep footprint at reasonable size, and width of component pad is considered to be 0. Pad size is 1.0 * 0.9 mm. 
-&lt;/p&gt;
-&lt;p&gt;
-Silkscreen has 0.15 mm clearance from pads and 0.15 mm width. Name is printed on silkscreen on layer tNames, 0.15 mm width and 1.5 mm height. 
-&lt;/p&gt;
-&lt;p&gt;
-Component has placement courtyard of 0.5 mm from pads. 
-tDocument layer is used for assembly drawing.
-Component outline is drawn on measures layer.
-&lt;/p&gt;</description>
-<smd name="P$1" x="-0.8" y="0" dx="1" dy="0.9" layer="1" roundness="10"/>
-<smd name="P$2" x="0.8" y="0" dx="1" dy="0.9" layer="1" roundness="10"/>
-<wire x1="-0.7" y1="-0.2" x2="-0.7" y2="0.2" width="0.4" layer="47"/>
-<wire x1="0.7" y1="0.2" x2="0.7" y2="-0.2" width="0.4" layer="47"/>
-<wire x1="-0.7" y1="0.3" x2="0.7" y2="0.3" width="0.2" layer="47"/>
-<wire x1="0.7" y1="-0.3" x2="-0.7" y2="-0.3" width="0.2" layer="47"/>
-<rectangle x1="-1.8" y1="-0.95" x2="1.8" y2="0.95" layer="39"/>
-<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.1" layer="51"/>
-<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.1" layer="51"/>
-<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="0.6" y1="0.65" x2="-0.6" y2="0.65" width="0.15" layer="21"/>
-<wire x1="-0.6" y1="-0.65" x2="0.6" y2="-0.65" width="0.15" layer="21"/>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="SMD0805-A">
-<description>&lt;h3&gt;IPC-7351-C compliant smd 0805 (2012 metric) footprint, variant A&lt;/h3&gt;
-&lt;p&gt;
-Variant A has large pads and placement courtyard, ideal for handsoldering. This footprint should be selected only for sparsely populated designs and designs where joint needs to be robust.
-&lt;/p&gt;
-&lt;p&gt;
-Origin is in middle of component, pin 1 is at left. Component is not polarized
-&lt;/p&gt;
-&lt;p&gt;
-Pads have 0.55 mm toes, 0.45 mm heels and 0.05 mm sides. Tolerances of body dimensions are not considered to keep footprint at reasonable size, and width of component pad is considered to be 0. Pad size is 1.0 * 1.3 mm. 
-&lt;/p&gt;
-&lt;p&gt;
-Silkscreen has 0.15 mm clearance from pads and 0.15 mm width. Name is printed on silkscreen on layer tNames, 0.15 mm width and 1.5 mm height. 
-&lt;/p&gt;
-&lt;p&gt;
-Component has placement courtyard of 0.5 mm from pads. 
-tDocument layer is used for assembly drawing.
-Component outline is drawn on measures layer.
-&lt;/p&gt;
-&lt;p&gt;
-See &lt;a href="http://blogs.mentor.com/tom-hausherr/blog/2011/01/28/pcb-design-perfection-starts-in-the-cad-library-part-12/"&gt;mentor blog&lt;/a&gt; and &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PCB_Design_Optimization_Starts_in_the_CAD_Library.asp"&gt;PCB libraries presentation&lt;/a&gt; for reference.
-&lt;/p&gt;</description>
-<smd name="P$1" x="-1" y="0" dx="1" dy="1.3" layer="1"/>
-<smd name="P$2" x="1" y="0" dx="1" dy="1.3" layer="1"/>
-<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.127" layer="47"/>
-<wire x1="-1" y1="0.6" x2="-0.9" y2="0.6" width="0.127" layer="47"/>
-<wire x1="-0.9" y1="0.6" x2="0.9" y2="0.6" width="0.127" layer="47"/>
-<wire x1="0.9" y1="0.6" x2="1" y2="0.6" width="0.127" layer="47"/>
-<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.127" layer="47"/>
-<wire x1="1" y1="-0.6" x2="0.9" y2="-0.6" width="0.127" layer="47"/>
-<wire x1="0.9" y1="-0.6" x2="-0.9" y2="-0.6" width="0.127" layer="47"/>
-<wire x1="-0.9" y1="-0.6" x2="-1" y2="-0.6" width="0.127" layer="47"/>
-<wire x1="-0.9" y1="-0.6" x2="-0.9" y2="0.6" width="0.127" layer="47"/>
-<wire x1="0.9" y1="0.6" x2="0.9" y2="-0.6" width="0.127" layer="47"/>
-<wire x1="-0.5" y1="0.85" x2="0.5" y2="0.85" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-0.85" x2="-0.5" y2="-0.85" width="0.127" layer="21"/>
-<rectangle x1="-2" y1="-1.15" x2="2" y2="1.15" layer="39"/>
-<wire x1="1.9" y1="1" x2="-1.9" y2="1" width="0.127" layer="51"/>
-<wire x1="-1.9" y1="1" x2="-1.9" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1.9" y1="-1" x2="1.9" y2="-1" width="0.127" layer="51"/>
-<wire x1="1.9" y1="-1" x2="1.9" y2="1" width="0.127" layer="51"/>
-<text x="0" y="0" size="0.5" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="SMD1206-A">
-<description>&lt;h3&gt;IPC-7351-C compliant smd 1206 (3216 metric) footprint, variant A&lt;/h3&gt;
-&lt;p&gt;
-Variant A has large pads and placement courtyard, ideal for handsoldering. This footprint should be selected only for sparsely populated designs and designs where joint needs to be robust.
-&lt;/p&gt;
-&lt;p&gt;
-Origin is in middle of the component, pin 1 is at left. Component is not polarized.
-&lt;/p&gt;
-&lt;p&gt;
-Pads have 0.55 mm toes, 0.45 mm heels and 0.05 mm sides. Tolerances of body dimensions are not considered to keep footprint at reasonable size, and width of component pad is considered to be 0. Pad size is 1.0 * 1.7 mm. 
-&lt;/p&gt;
-&lt;p&gt;
-Silkscreen has 0.15 mm clearance from pads and 0.15 mm width. Name is printed on silkscreen on layer tNames, 0.15 mm width and 1.5 mm height. 
-&lt;/p&gt;
-&lt;p&gt;
-Component has placement courtyard of 0.5 mm from pads. 
-tDocument layer is used for assembly drawing.
-Component outline is drawn on measures layer.
-&lt;/p&gt;
-&lt;p&gt;
-See &lt;a href="http://blogs.mentor.com/tom-hausherr/blog/2011/01/28/pcb-design-perfection-starts-in-the-cad-library-part-12/"&gt;mentor blog&lt;/a&gt; and &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PCB_Design_Optimization_Starts_in_the_CAD_Library.asp"&gt;PCB libraries presentation&lt;/a&gt; for reference.
-&lt;/p&gt;</description>
-<smd name="P$1" x="-1.6" y="0" dx="1" dy="1.7" layer="1"/>
-<smd name="P$2" x="1.6" y="0" dx="1" dy="1.7" layer="1"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.15" layer="47"/>
-<wire x1="-1.6" y1="0.8" x2="-1.3" y2="0.8" width="0.15" layer="47"/>
-<wire x1="-1.3" y1="0.8" x2="1.3" y2="0.8" width="0.15" layer="47"/>
-<wire x1="1.3" y1="0.8" x2="1.6" y2="0.8" width="0.15" layer="47"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.15" layer="47"/>
-<wire x1="1.6" y1="-0.8" x2="1.3" y2="-0.8" width="0.15" layer="47"/>
-<wire x1="1.3" y1="-0.8" x2="-1.3" y2="-0.8" width="0.15" layer="47"/>
-<wire x1="-1.3" y1="-0.8" x2="-1.6" y2="-0.8" width="0.15" layer="47"/>
-<wire x1="-1.3" y1="-0.8" x2="-1.3" y2="0.8" width="0.15" layer="47"/>
-<wire x1="1.3" y1="0.8" x2="1.3" y2="-0.8" width="0.15" layer="47"/>
-<rectangle x1="-2.6" y1="-1.35" x2="2.6" y2="1.35" layer="39"/>
-<wire x1="-2.5" y1="1.25" x2="2.5" y2="1.25" width="0.15" layer="51"/>
-<wire x1="2.5" y1="1.25" x2="2.5" y2="-1.25" width="0.15" layer="51"/>
-<wire x1="2.5" y1="-1.25" x2="-2.5" y2="-1.25" width="0.15" layer="51"/>
-<wire x1="-2.5" y1="-1.25" x2="-2.5" y2="1.25" width="0.15" layer="51"/>
-<text x="0" y="0" size="1" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="1.2" y1="1.1" x2="-1.2" y2="1.1" width="0.15" layer="21"/>
-<wire x1="-1.2" y1="-1.1" x2="1.2" y2="-1.1" width="0.15" layer="21"/>
-<text x="0" y="0" size="1.5" layer="25" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="SMD2220-REFLOW">
-<description>&lt;h3&gt;Non-polarized reflow footprint for 2220 (5750 metric) SMD parts&lt;/h3&gt;
-
-&lt;p&gt;
- Please see &lt;a href="http://product.tdk.com/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf"&gt; TDK MID VOLTAGE CAPACITOR GUIDE&lt;/a&gt; for reference.
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pads are as per manufacturer recommendations. &lt;/li&gt;
-&lt;li&gt;Mechanical outline is on Measures layer.&lt;/li&gt;
-&lt;li&gt;Silkscreen outline is on tPlace layer, 0.15 mm width. Silkscreen has 0.15 mm clearance from pads.&lt;/li&gt;
-&lt;li&gt;Name is on tPlace layer, 1.5 mm height, 10 % ratio.&lt;/li&gt;
-&lt;li&gt;Assembly drawing is on tDocu layer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
-<wire x1="-2.85" y1="-2.5" x2="2.85" y2="-2.5" width="0.127" layer="47"/>
-<wire x1="2.85" y1="-2.5" x2="2.85" y2="2.5" width="0.127" layer="47"/>
-<wire x1="2.85" y1="2.5" x2="-2.85" y2="2.5" width="0.127" layer="47"/>
-<wire x1="-2.85" y1="2.5" x2="-2.85" y2="-2.5" width="0.127" layer="47"/>
-<smd name="P$1" x="-3.1" y="0" dx="1.4" dy="5" layer="1"/>
-<smd name="P$2" x="3.1" y="0" dx="1.4" dy="5" layer="1"/>
-<wire x1="-2.5" y1="2.7" x2="2.5" y2="2.7" width="0.15" layer="21"/>
-<wire x1="2.5" y1="-2.7" x2="-2.5" y2="-2.7" width="0.15" layer="21"/>
-<text x="0" y="0" size="1.5" layer="27" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-<rectangle x1="-4.2" y1="-3.05" x2="4.2" y2="3" layer="39"/>
-<wire x1="-4.05" y1="2.85" x2="4.05" y2="2.85" width="0.127" layer="51"/>
-<wire x1="4.05" y1="2.85" x2="4.05" y2="-2.9" width="0.127" layer="51"/>
-<wire x1="4.05" y1="-2.9" x2="-4.05" y2="-2.9" width="0.127" layer="51"/>
-<wire x1="-4.05" y1="-2.9" x2="-4.05" y2="2.85" width="0.127" layer="51"/>
-</package>
-<package name="SMD0603-B">
-<description>&lt;h3&gt;IPC-7351-C compliant smd 0603 (1608 metric) footprint, variant B&lt;/h3&gt;
-&lt;p&gt;
-Variant B has nominal pads and placement courtyard. This footprint should be selected only for moderately populated designs. If the design is going to be handsoldered, consider using A-variant.
-&lt;/p&gt;
-&lt;p&gt;
-Origin is in middle of component, pin 1 is at left. Component is not polarized
-&lt;/p&gt;
-&lt;p&gt;
-Pads have 0.35 mm toes, 0.35 mm heels and 0.03 mm sides. Tolerances of body dimensions are not considered to keep footprint at reasonable size, and width of component pad is considered to be 0. Pad size is 0.7 mm * 0.86 mm. 
-&lt;/p&gt;
-&lt;p&gt;
-Silkscreen has 0.12 mm clearance from pads and 0.12 mm width. Name is printed on silkscreen on layer tNames, 0.12 mm width and 1.2 mm height. 
-&lt;/p&gt;
-&lt;p&gt;
-Component has placement courtyard of 0.25 mm from pads. 
-tDocument layer is used for assembly drawing.
-Component outline is drawn on measures layer.
-&lt;/p&gt;</description>
-<smd name="P$1" x="-0.8" y="0" dx="0.7" dy="0.86" layer="1" roundness="10"/>
-<smd name="P$2" x="0.8" y="0" dx="0.7" dy="0.86" layer="1" roundness="10"/>
-<wire x1="-0.7" y1="-0.2" x2="-0.7" y2="0.2" width="0.4" layer="47"/>
-<wire x1="0.7" y1="0.2" x2="0.7" y2="-0.2" width="0.4" layer="47"/>
-<wire x1="-0.7" y1="0.3" x2="0.7" y2="0.3" width="0.2" layer="47"/>
-<wire x1="0.7" y1="-0.3" x2="-0.7" y2="-0.3" width="0.2" layer="47"/>
-<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="-0.55" y1="0.59" x2="0.59" y2="0.59" width="0.127" layer="21"/>
-<wire x1="-0.55" y1="-0.59" x2="0.55" y2="-0.59" width="0.127" layer="21"/>
-<rectangle x1="-1.4" y1="-0.68" x2="1.4" y2="0.68" layer="39"/>
-</package>
 <package name="R0402">
 <description>&lt;h3&gt;SMD resistor in 0402 package&lt;/h3&gt;
 
@@ -569,6 +338,154 @@ Component outline is drawn on measures layer.
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 </package>
+<package name="COILCRAFT-MSS5121">
+<description>&lt;h3&gt;Ferrite Bead Coilcraft MSS5121&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.coilcraft.com/pdfs/mss5121.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<smd name="2" x="2" y="2" dx="0.6" dy="0.6" layer="1"/>
+<smd name="1" x="-2" y="-2" dx="0.6" dy="0.6" layer="1"/>
+<polygon width="0.3" layer="1">
+<vertex x="-1.95" y="0.9"/>
+<vertex x="-1.85" y="1.05"/>
+<vertex x="-1.6" y="1.4"/>
+<vertex x="-1" y="1.9"/>
+<vertex x="-0.5" y="2.1"/>
+<vertex x="0.5" y="2.1"/>
+<vertex x="1" y="1.9"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="1.9" y="1"/>
+<vertex x="1.95" y="0.9"/>
+<vertex x="2.5" y="0.9"/>
+<vertex x="2.5" y="2.5"/>
+<vertex x="-2.5" y="2.5"/>
+<vertex x="-2.5" y="0.9"/>
+</polygon>
+<polygon width="0.3" layer="1">
+<vertex x="1.95" y="-0.9"/>
+<vertex x="1.85" y="-1.05"/>
+<vertex x="1.55" y="-1.45"/>
+<vertex x="1.05" y="-1.9"/>
+<vertex x="0.55" y="-2.1"/>
+<vertex x="0" y="-2.15"/>
+<vertex x="-0.5" y="-2.1"/>
+<vertex x="-1" y="-1.9"/>
+<vertex x="-1.45" y="-1.6"/>
+<vertex x="-1.85" y="-1.1"/>
+<vertex x="-1.9" y="-0.9"/>
+<vertex x="-2.5" y="-0.9"/>
+<vertex x="-2.5" y="-2.5"/>
+<vertex x="2.5" y="-2.5"/>
+<vertex x="2.5" y="-0.9"/>
+</polygon>
+<text x="-2.6" y="2.8" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.6" y="-3.8" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="29">
+<vertex x="1.85" y="-0.7"/>
+<vertex x="1.7" y="-0.95"/>
+<vertex x="1.4" y="-1.35"/>
+<vertex x="1" y="-1.7"/>
+<vertex x="0.5" y="-1.9"/>
+<vertex x="0" y="-1.95"/>
+<vertex x="-0.5" y="-1.9"/>
+<vertex x="-1" y="-1.7"/>
+<vertex x="-1.3" y="-1.5"/>
+<vertex x="-1.7" y="-1"/>
+<vertex x="-1.85" y="-0.7"/>
+<vertex x="-2.7" y="-0.7"/>
+<vertex x="-2.7" y="-2.7"/>
+<vertex x="2.7" y="-2.7"/>
+<vertex x="2.7" y="-0.7"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.85" y="0.7"/>
+<vertex x="-1.7" y="0.95"/>
+<vertex x="-1.4" y="1.35"/>
+<vertex x="-0.9" y="1.75"/>
+<vertex x="-0.5" y="1.9"/>
+<vertex x="-0.1" y="1.95"/>
+<vertex x="0.5" y="1.9"/>
+<vertex x="0.95" y="1.75"/>
+<vertex x="1.35" y="1.4"/>
+<vertex x="1.75" y="0.9"/>
+<vertex x="1.85" y="0.7"/>
+<vertex x="2.7" y="0.7"/>
+<vertex x="2.7" y="2.7"/>
+<vertex x="-2.7" y="2.7"/>
+<vertex x="-2.7" y="0.7"/>
+</polygon>
+<polygon width="0.3" layer="31">
+<vertex x="-1.95" y="0.9"/>
+<vertex x="-1.85" y="1.05"/>
+<vertex x="-1.6" y="1.4"/>
+<vertex x="-1" y="1.9"/>
+<vertex x="-0.5" y="2.1"/>
+<vertex x="0.5" y="2.1"/>
+<vertex x="1" y="1.9"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="1.9" y="1"/>
+<vertex x="1.95" y="0.9"/>
+<vertex x="2.5" y="0.9"/>
+<vertex x="2.5" y="2.5"/>
+<vertex x="-2.5" y="2.5"/>
+<vertex x="-2.5" y="0.9"/>
+</polygon>
+<polygon width="0.3" layer="31">
+<vertex x="1.95" y="-0.9"/>
+<vertex x="1.85" y="-1.05"/>
+<vertex x="1.55" y="-1.45"/>
+<vertex x="1.05" y="-1.9"/>
+<vertex x="0.55" y="-2.1"/>
+<vertex x="0" y="-2.15"/>
+<vertex x="-0.5" y="-2.1"/>
+<vertex x="-1" y="-1.9"/>
+<vertex x="-1.45" y="-1.6"/>
+<vertex x="-1.85" y="-1.1"/>
+<vertex x="-1.9" y="-0.9"/>
+<vertex x="-2.5" y="-0.9"/>
+<vertex x="-2.5" y="-2.5"/>
+<vertex x="2.5" y="-2.5"/>
+<vertex x="2.5" y="-0.9"/>
+</polygon>
+</package>
+<package name="FB1206">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="1.573" y1="-0.783" x2="-1.573" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="-1.573" y1="-0.783" x2="-1.573" y2="0.783" width="0.0508" layer="39"/>
+<text x="-1.989" y="1.316" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.989" y="-1.986" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-1.573" y1="0.783" x2="1.573" y2="0.783" width="0.0508" layer="39"/>
+</package>
+<package name="FB0402">
+<wire x1="-0.245" y1="0.219" x2="0.245" y2="0.219" width="0.06" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.06" layer="51"/>
+<smd name="1" x="-0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
+<smd name="2" x="0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
+<text x="-0.935" y="0.362" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.935" y="-0.705" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C_EU">
@@ -590,6 +507,20 @@ Component outline is drawn on measures layer.
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="L_US">
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<text x="-5.08" y="-2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="1.778" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -650,60 +581,6 @@ Component outline is drawn on measures layer.
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402-B" package="SMD0402-B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603-A" package="SMD0603-A">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805-A" package="SMD0805-A">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206-A" package="SMD1206-A">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2220-REFLOW" package="SMD2220-REFLOW">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603-B" package="SMD0603-B">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
@@ -757,7 +634,21 @@ Component outline is drawn on measures layer.
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402-B" package="SMD0402-B">
+</devices>
+</deviceset>
+<deviceset name="FB" prefix="FB" uservalue="yes">
+<description>&lt;h3&gt;Ferrite beads&lt;/h3&gt;
+
+&lt;p&gt;Ferrite beads are choke coils used to suppress high frequency noise in electronic circuits.&lt;/h3&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Ferrite_bead"&gt;Wikipedia article on ferrite beads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="L_US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5121" package="COILCRAFT-MSS5121">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -766,37 +657,19 @@ Component outline is drawn on measures layer.
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603-A" package="SMD0603-A">
+<device name="1206" package="FB1206">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805-A" package="SMD0805-A">
+<device name="0402" package="FB0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206-A" package="SMD1206-A">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603-B" package="SMD0603-B">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1181,6 +1054,22 @@ at 30/04/2012 16:26:10</description>
 <text x="-4.4958" y="1.6764" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.7404" y="-3.8354" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="CAPC1005X60N">
+<smd name="1" x="-0.4826" y="0" dx="0.4572" dy="0.6096" layer="1"/>
+<smd name="2" x="0.4826" y="0" dx="0.4572" dy="0.6096" layer="1"/>
+<wire x1="-0.254" y1="-0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.254" y1="0.3048" x2="-0.5588" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.5588" y1="-0.3048" x2="-0.254" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.254" y1="0.3048" x2="0.254" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.254" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.5588" y1="0.3048" x2="0.254" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.254" y1="-0.3048" x2="0.254" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
+<wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPH">
@@ -1217,6 +1106,106 @@ at 30/04/2012 16:26:10</description>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
 <attribute name="VALUE" value="10UF" constant="no"/>
 <attribute name="VOLTAGERATING" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UQCL2A1R5BAT2A/500" prefix="C">
+<description>Capacitor 0402</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X60N">
+<connects>
+<connect gate="A" pin="C1" pad="2"/>
+<connect gate="A" pin="C2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="UQCL2A1R5BAT2A/500" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8784" constant="no"/>
+<attribute name="SUPPLIER" value="AVX" constant="no"/>
+<attribute name="TOLERANCE" value="±.1 pF" constant="no"/>
+<attribute name="VALUE" value="1.5pF" constant="no"/>
+<attribute name="VOLTAGERATING" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UQCL2A1R0BAT2A/500" prefix="C">
+<description>Capacitor 0402</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X60N">
+<connects>
+<connect gate="A" pin="C1" pad="2"/>
+<connect gate="A" pin="C2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="UQCL2A1R0BAT2A/500" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8778" constant="no"/>
+<attribute name="SUPPLIER" value="AVX" constant="no"/>
+<attribute name="TOLERANCE" value="±.1 pF" constant="no"/>
+<attribute name="VALUE" value="1pF" constant="no"/>
+<attribute name="VOLTAGERATING" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UQCL2A4R7CAT2A/500" prefix="C">
+<description>Capacitor 0402</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X60N">
+<connects>
+<connect gate="A" pin="C1" pad="2"/>
+<connect gate="A" pin="C2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="UQCL2A4R7CAT2A/500" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8823" constant="no"/>
+<attribute name="SUPPLIER" value="AVX" constant="no"/>
+<attribute name="TOLERANCE" value="±.25 pF" constant="no"/>
+<attribute name="VALUE" value="4.7pF" constant="no"/>
+<attribute name="VOLTAGERATING" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="04023C104KAT2A" prefix="C">
+<description>Capacitor 0402</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X60N">
+<connects>
+<connect gate="A" pin="C1" pad="2"/>
+<connect gate="A" pin="C2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="04023C104KAT2A" constant="no"/>
+<attribute name="OC_FARNELL" value="1867948" constant="no"/>
+<attribute name="OC_NEWARK" value="37T9047" constant="no"/>
+<attribute name="SUPPLIER" value="AVX" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGERATING" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1901,6 +1890,32 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun">
+<packages>
+</packages>
+<symbols>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1913,8 +1928,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <parts>
 <part name="C1" library="ELL-i-Passives" deviceset="C" device="0603" value="10uF"/>
 <part name="C2" library="ELL-i-Passives" deviceset="C" device="0402" value="33n"/>
-<part name="C3" library="ELL-i-Passives" deviceset="C" device="0402" value="100n"/>
-<part name="C5" library="ELL-i-Passives" deviceset="C" device="0402" value="100n"/>
 <part name="C6" library="ELL-i-Passives" deviceset="C" device="0402" value="1uF"/>
 <part name="C7" library="ELL-i-Passives" deviceset="C" device="0402" value="100n"/>
 <part name="C8" library="ELL-i-Passives" deviceset="C" device="0402" value="100n"/>
@@ -1939,8 +1952,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="ELL-i-Passives" deviceset="C" device="0402" value="33n"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C14" library="ELL-i-Passives" deviceset="C" device="0402" value="2.2n"/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
@@ -2025,6 +2036,19 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="C23" library="ELL-i-Passives" deviceset="C" device="0603" value="10uF"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="GND25" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND26" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND29" library="SparkFun" deviceset="GND" device=""/>
+<part name="C22" library="ELL-i-Passives" deviceset="C" device="0603" value="2.2nF"/>
+<part name="FB1" library="ELL-i-Passives" deviceset="FB" device="0402" value="6.8nH"/>
+<part name="FB2" library="ELL-i-Passives" deviceset="FB" device="0402" value="6.8nH"/>
+<part name="FB3" library="ELL-i-Passives" deviceset="FB" device="0402" value="4.7nH"/>
+<part name="ANTENNA_CHIP" library="ELL-i-Passives" deviceset="R" device="0805"/>
+<part name="C14" library="(manufact)-capacitors-AVX-element14" deviceset="UQCL2A1R5BAT2A/500" device="" value="1.5pF"/>
+<part name="C25" library="(manufact)-capacitors-AVX-element14" deviceset="UQCL2A1R0BAT2A/500" device="" value="1pF"/>
+<part name="C26" library="(manufact)-capacitors-AVX-element14" deviceset="UQCL2A4R7CAT2A/500" device="" value="4.7pF"/>
+<part name="C24" library="(manufact)-capacitors-AVX-element14" deviceset="04023C104KAT2A" device="" value="0.1uF"/>
+<part name="C3" library="(manufact)-capacitors-AVX-element14" deviceset="04023C104KAT2A" device="" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2036,8 +2060,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instances>
 <instance part="C1" gate="G$1" x="25.4" y="160.02"/>
 <instance part="C2" gate="G$1" x="157.48" y="99.06"/>
-<instance part="C3" gate="G$1" x="149.86" y="99.06"/>
-<instance part="C5" gate="G$1" x="215.9" y="142.24" rot="R90"/>
 <instance part="C6" gate="G$1" x="91.44" y="185.42"/>
 <instance part="C7" gate="G$1" x="81.28" y="78.74"/>
 <instance part="C8" gate="G$1" x="88.9" y="78.74"/>
@@ -2052,7 +2074,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instance part="GND7" gate="1" x="91.44" y="175.26"/>
 <instance part="GND8" gate="1" x="157.48" y="88.9"/>
 <instance part="GND9" gate="1" x="149.86" y="88.9"/>
-<instance part="GND10" gate="1" x="142.24" y="88.9"/>
+<instance part="GND10" gate="1" x="137.16" y="88.9"/>
 <instance part="GND11" gate="1" x="223.52" y="134.62"/>
 <instance part="GND12" gate="1" x="180.34" y="88.9"/>
 <instance part="GND13" gate="1" x="238.76" y="111.76" rot="R180"/>
@@ -2062,9 +2084,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instance part="GND14" gate="1" x="226.06" y="149.86"/>
 <instance part="C13" gate="G$1" x="190.5" y="71.12"/>
 <instance part="GND15" gate="1" x="190.5" y="60.96"/>
-<instance part="C14" gate="G$1" x="269.24" y="78.74"/>
-<instance part="GND16" gate="1" x="269.24" y="68.58"/>
-<instance part="P+1" gate="VCC" x="142.24" y="114.3"/>
+<instance part="P+1" gate="VCC" x="137.16" y="114.3"/>
 <instance part="P+2" gate="VCC" x="210.82" y="152.4"/>
 <instance part="P+3" gate="VCC" x="190.5" y="81.28"/>
 <instance part="GND17" gate="1" x="81.28" y="68.58"/>
@@ -2153,6 +2173,19 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instance part="P+10" gate="VCC" x="-71.12" y="68.58"/>
 <instance part="C23" gate="G$1" x="-76.2" y="66.04" rot="R90"/>
 <instance part="GND28" gate="1" x="-78.74" y="63.5"/>
+<instance part="GND25" gate="1" x="276.86" y="93.98"/>
+<instance part="GND26" gate="1" x="287.02" y="93.98"/>
+<instance part="GND29" gate="1" x="312.42" y="119.38"/>
+<instance part="C22" gate="G$1" x="276.86" y="104.14"/>
+<instance part="FB1" gate="G$1" x="292.1" y="114.3" rot="R180"/>
+<instance part="FB2" gate="G$1" x="281.94" y="124.46" rot="R270"/>
+<instance part="FB3" gate="G$1" x="292.1" y="134.62"/>
+<instance part="ANTENNA_CHIP" gate="G$1" x="322.58" y="144.78" rot="R90"/>
+<instance part="C14" gate="A" x="302.26" y="134.62"/>
+<instance part="C25" gate="A" x="312.42" y="124.46" rot="R90"/>
+<instance part="C26" gate="A" x="287.02" y="99.06" rot="R90"/>
+<instance part="C24" gate="A" x="149.86" y="93.98" rot="R90"/>
+<instance part="C3" gate="A" x="220.98" y="142.24" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2160,13 +2193,13 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="137.16" y1="93.98" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="93.98" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="A" pin="C1"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="149.86" y1="93.98" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C24" gate="A" pin="C1"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -2174,7 +2207,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="157.48" y1="93.98" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="220.98" y1="142.24" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="142.24" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
@@ -2182,6 +2214,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="213.36" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
 <junction x="223.52" y="137.16"/>
 <pinref part="U$8" gate="G$1" pin="VSS3"/>
+<pinref part="C3" gate="A" pin="C1"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -2208,11 +2241,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="190.5" y1="63.5" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="269.24" y1="71.12" x2="269.24" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -2301,13 +2329,28 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <pinref part="C23" gate="G$1" pin="1"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="276.86" y1="96.52" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="287.02" y1="96.52" x2="287.02" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<pinref part="C26" gate="A" pin="C1"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="121.92" x2="312.42" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<pinref part="C25" gate="A" pin="C1"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="101.6" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="DEC1"/>
+<pinref part="C24" gate="A" pin="C2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2316,30 +2359,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="182.88" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="104.14" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="DEC2"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="231.14" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="ANT2"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="231.14" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="104.14" x2="251.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="93.98" x2="256.54" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="ANT1"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="231.14" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="101.6" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="81.28" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="VDD_PA"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -2383,17 +2402,16 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <pinref part="U$8" gate="G$1" pin="VDD2"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="109.22" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="142.24" y1="109.22" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<junction x="142.24" y="109.22"/>
+<wire x1="137.16" y1="109.22" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
+<junction x="137.16" y="109.22"/>
 <pinref part="C4" gate="A" pin="C2"/>
 <pinref part="U$8" gate="G$1" pin="VDD1"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="127" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="142.24" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
 <junction x="210.82" y="142.24"/>
@@ -2409,6 +2427,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <junction x="210.82" y="147.32"/>
 <pinref part="U$8" gate="G$1" pin="VDD3"/>
 <pinref part="U$8" gate="G$1" pin="VDD4"/>
+<pinref part="C3" gate="A" pin="C2"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="185.42" x2="71.12" y2="185.42" width="0.1524" layer="91"/>
@@ -3048,6 +3067,74 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <pinref part="U1" gate="A" pin="A1"/>
 <wire x1="-63.5" y1="58.42" x2="-71.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="-71.12" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="276.86" y1="114.3" x2="276.86" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="134.62" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="132.08" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="FB3" gate="G$1" pin="1"/>
+<wire x1="281.94" y1="134.62" x2="284.48" y2="134.62" width="0.1524" layer="91"/>
+<junction x="281.94" y="134.62"/>
+<pinref part="FB2" gate="G$1" pin="1"/>
+<wire x1="276.86" y1="114.3" x2="256.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="ANT2"/>
+<wire x1="256.54" y1="114.3" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ANT" class="0">
+<segment>
+<wire x1="309.88" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="132.08" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="134.62" x2="322.58" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="134.62" x2="322.58" y2="139.7" width="0.1524" layer="91"/>
+<junction x="312.42" y="134.62"/>
+<label x="314.96" y="134.62" size="1.778" layer="95"/>
+<pinref part="ANTENNA_CHIP" gate="G$1" pin="1"/>
+<pinref part="C14" gate="A" pin="C2"/>
+<pinref part="C25" gate="A" pin="C2"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<wire x1="299.72" y1="134.62" x2="302.26" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="FB3" gate="G$1" pin="2"/>
+<pinref part="C14" gate="A" pin="C1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<wire x1="281.94" y1="111.76" x2="281.94" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="114.3" x2="281.94" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="114.3" x2="281.94" y2="114.3" width="0.1524" layer="91"/>
+<junction x="281.94" y="114.3"/>
+<pinref part="FB1" gate="G$1" pin="2"/>
+<pinref part="FB2" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="111.76" x2="261.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="104.14" x2="261.62" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="ANT1"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="VDD_PA"/>
+<wire x1="276.86" y1="109.22" x2="287.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="109.22" x2="302.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="109.22" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="114.3" x2="299.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="106.68" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="106.68" x2="287.02" y2="109.22" width="0.1524" layer="91"/>
+<junction x="276.86" y="109.22"/>
+<junction x="287.02" y="109.22"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="FB1" gate="G$1" pin="1"/>
+<wire x1="276.86" y1="109.22" x2="269.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="101.6" x2="269.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="101.6" x2="269.24" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C26" gate="A" pin="C2"/>
 </segment>
 </net>
 </nets>
