@@ -902,6 +902,28 @@
 <rectangle x1="-1.45" y1="-1.45" x2="-0.15" y2="-0.15" layer="31" rot="R90"/>
 <rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31" rot="R180"/>
 </package>
+<package name="TXC_7M-16.000MAAJ-T">
+<smd name="1" x="-1.1" y="-0.85" dx="1.4" dy="1.2" layer="1"/>
+<smd name="2" x="1.1" y="-0.85" dx="1.4" dy="1.2" layer="1"/>
+<smd name="3" x="1.1" y="0.85" dx="1.4" dy="1.2" layer="1"/>
+<smd name="4" x="-1.1" y="0.85" dx="1.4" dy="1.2" layer="1"/>
+<wire x1="-1.65" y1="1.3" x2="1.65" y2="1.3" width="0.1524" layer="51"/>
+<wire x1="1.65" y1="1.3" x2="1.65" y2="-1.3" width="0.1524" layer="51"/>
+<wire x1="1.65" y1="-1.3" x2="-0.8" y2="-1.3" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="-1.3" x2="-1.65" y2="-1.3" width="0.1524" layer="51"/>
+<wire x1="-1.65" y1="-1.3" x2="-1.65" y2="1.3" width="0.1524" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="0.1" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="-0.1" y1="-1.3" x2="0.1" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="-2" y1="1.7" x2="2" y2="1.7" width="0.1524" layer="39"/>
+<wire x1="2" y1="1.7" x2="2" y2="-1.7" width="0.1524" layer="39"/>
+<wire x1="2" y1="-1.7" x2="-2" y2="-1.7" width="0.1524" layer="39"/>
+<wire x1="-2" y1="-1.7" x2="-2" y2="1.7" width="0.1524" layer="39"/>
+<text x="-2.5" y="2.3" size="1.27" layer="25" ratio="10">&gt;Name</text>
+<text x="-2.8" y="-3.4" size="1.27" layer="27" ratio="10">&gt;Value</text>
+<wire x1="-1.6" y1="-0.5" x2="-0.8" y2="-1.3" width="0.1524" layer="51"/>
+<circle x="-1.2" y="-1.9" radius="0.14141875" width="0.1524" layer="21"/>
+<circle x="-1.2" y="-1.9" radius="0.14141875" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D-1">
@@ -954,6 +976,23 @@
 <pin name="XC2" x="-2.54" y="22.86" length="middle" rot="R270"/>
 <pin name="XC1" x="-5.08" y="22.86" length="middle" rot="R270"/>
 <pin name="P0.0" x="-7.62" y="22.86" length="middle" rot="R270"/>
+</symbol>
+<symbol name="7M-16.000MAAJ-T">
+<description>7M-16.000MAAJ-T</description>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.4064" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.4064" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.4064" layer="94"/>
+<text x="-2.54" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.6924" y="-1.27" size="0.8636" layer="93">1</text>
+<text x="2.2606" y="-1.4732" size="0.8636" layer="93">3</text>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1024,6 +1063,29 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="MPN" value="NRF24LE1-F16Q24-T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7M-16.000MAAJ-T" prefix="XTAL">
+<description>CRYSTAL SEAM, 16MHZ, 18PF, SMD</description>
+<gates>
+<gate name="A" symbol="7M-16.000MAAJ-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TXC_7M-16.000MAAJ-T">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="7M-16.000MAAJ-T " constant="no"/>
+<attribute name="OC_FARNELL" value="1842060 " constant="no"/>
+<attribute name="OC_NEWARK" value="84R5710 " constant="no"/>
+<attribute name="PACKAGE" value="SMD " constant="no"/>
+<attribute name="SUPPLIER" value="TXC" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2049,6 +2111,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C26" library="(manufact)-capacitors-AVX-element14" deviceset="UQCL2A4R7CAT2A/500" device="" value="4.7pF"/>
 <part name="C24" library="(manufact)-capacitors-AVX-element14" deviceset="04023C104KAT2A" device="" value="0.1uF"/>
 <part name="C3" library="(manufact)-capacitors-AVX-element14" deviceset="04023C104KAT2A" device="" value="0.1uF"/>
+<part name="XTAL1" library="(misc)-parts-that-we-use" deviceset="7M-16.000MAAJ-T" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2186,6 +2249,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instance part="C26" gate="A" x="287.02" y="99.06" rot="R90"/>
 <instance part="C24" gate="A" x="149.86" y="93.98" rot="R90"/>
 <instance part="C3" gate="A" x="220.98" y="142.24" rot="R180"/>
+<instance part="XTAL1" gate="A" x="205.74" y="162.56" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2377,6 +2441,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="205.74" y1="154.94" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <junction x="205.74" y="154.94"/>
 <pinref part="U$8" gate="G$1" pin="XC2"/>
+<pinref part="XTAL1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -2388,6 +2453,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="205.74" y1="170.18" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 <junction x="205.74" y="170.18"/>
 <pinref part="U$8" gate="G$1" pin="XC1"/>
+<pinref part="XTAL1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="VCC" class="0">
