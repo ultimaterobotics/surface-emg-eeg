@@ -8046,7 +8046,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R23" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-071M5L" device="" value="1.5M Ohms"/>
 <part name="R24" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-07220KL" device="" value="220K Ohms"/>
 <part name="C3" library="(manufact)-Kemet-element14" deviceset="C0402C222K5RACTU" device="" value="2.2nF"/>
-<part name="ACTIVE_GND" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -8207,7 +8207,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="R23" gate="A" x="-137.16" y="76.2"/>
 <instance part="R24" gate="A" x="-142.24" y="63.5" rot="R180"/>
 <instance part="C3" gate="A" x="-134.62" y="83.82"/>
-<instance part="ACTIVE_GND" gate="G$1" x="-167.64" y="63.5"/>
+<instance part="J1" gate="G$1" x="-167.64" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -8653,11 +8653,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="PH1" gate="G$1" pin="2"/>
 <wire x1="-129.54" y1="160.02" x2="-129.54" y2="152.4" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="-93.98" y1="66.04" x2="-104.14" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R22" gate="A" pin="R1"/>
-<label x="-101.6" y="66.04" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="CH1" class="0">
 <segment>
@@ -8945,6 +8940,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="38.1" y1="104.14" x2="17.78" y2="104.14" width="0.1524" layer="91"/>
 <label x="20.32" y="104.14" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="IN2+"/>
+</segment>
+<segment>
+<wire x1="-93.98" y1="66.04" x2="-104.14" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R22" gate="A" pin="R1"/>
+<label x="-101.6" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH1_F_A" class="0">
@@ -9306,7 +9306,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="R24" gate="A" pin="R1"/>
 <wire x1="-154.94" y1="63.5" x2="-160.02" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="ACTIVE_GND" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
