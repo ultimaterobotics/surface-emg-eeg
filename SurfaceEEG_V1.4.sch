@@ -8930,6 +8930,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R9" gate="A" pin="R2"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PD3"/>
+<wire x1="213.36" y1="116.84" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PD5"/>
+<wire x1="213.36" y1="111.76" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PD6"/>
+<wire x1="213.36" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
