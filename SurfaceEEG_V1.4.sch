@@ -437,8 +437,8 @@
 <circle x="-1.13" y="0.578" radius="0.0975" width="0" layer="21"/>
 <smd name="C" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
 <smd name="A" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
-<text x="-0.9" y="0.78" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.91" y="-2.055" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.02" y="1.1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.03" y="-1.735" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
 <rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
 <rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
@@ -459,8 +459,8 @@
 <wire x1="2" y1="1.7" x2="2" y2="-1.7" width="0.1524" layer="39"/>
 <wire x1="2" y1="-1.7" x2="-2" y2="-1.7" width="0.1524" layer="39"/>
 <wire x1="-2" y1="-1.7" x2="-2" y2="1.7" width="0.1524" layer="39"/>
-<text x="-2.5" y="2.3" size="1.27" layer="25" ratio="10">&gt;Name</text>
-<text x="-2.8" y="-3.4" size="1.27" layer="27" ratio="10">&gt;Value</text>
+<text x="-1.23" y="-0.4" size="0.6096" layer="25" ratio="10">&gt;Name</text>
+<text x="-0.73" y="-2.28" size="0.4064" layer="27" ratio="10">&gt;Value</text>
 <wire x1="-1.6" y1="-0.5" x2="-0.8" y2="-1.3" width="0.1524" layer="51"/>
 <circle x="-1.2" y="-1.9" radius="0.14141875" width="0.1524" layer="21"/>
 <circle x="-1.2" y="-1.9" radius="0.14141875" width="0.1524" layer="51"/>
@@ -599,8 +599,8 @@
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0" layer="51"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0" layer="51"/>
 <text x="-4.064" y="1.7526" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-4.826" y="-5.8674" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-3.0226" y="-3.556" size="0.8128" layer="25" ratio="10" rot="SR90">&gt;NAME</text>
+<text x="0.3556" y="3.175" size="0.8128" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="PH005-1-3">
 <description>Standard 0.05" (1.27mm) pitch pin header.</description>
@@ -857,7 +857,9 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="1N4148WS-7-F" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1006,8 +1008,8 @@ at 30/04/2012 16:26:10</description>
 <wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
 <wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
 <wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.5744" y="0.63" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.5744" y="-0.775" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="CAPC1608X90N">
 <smd name="1" x="-0.8128" y="0" dx="0.8636" dy="0.9652" layer="1"/>
@@ -1022,8 +1024,8 @@ at 30/04/2012 16:26:10</description>
 <wire x1="0.8636" y1="-0.4826" x2="0.8636" y2="0.4826" width="0.1524" layer="51"/>
 <wire x1="0.381" y1="0.4826" x2="-0.381" y2="0.4826" width="0.1524" layer="51"/>
 <wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0.1524" layer="51"/>
-<text x="-4.5212" y="1.0414" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.7404" y="-3.2258" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.0012" y="0.7214" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.9404" y="-0.9858" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1262,8 +1264,8 @@ Source: ww1.microchip.com/downloads/en/DeviceDoc/39605c.pdf</description>
 <smd name="27" x="-1" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="25" rot="R270" stop="no" cream="no"/>
 <smd name="28" x="-1.5" y="2.45" dx="0.85" dy="0.3" layer="1" roundness="25" rot="R270" stop="no" cream="no"/>
 <smd name="M" x="0" y="0" dx="3.35" dy="3.35" layer="1" stop="no" cream="no"/>
-<text x="-2.59" y="3.16" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.59" y="-4.58" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.32" y="0.62" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.32" y="-0.77" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.65" y1="-1.65" x2="1.65" y2="1.65" layer="29"/>
 <rectangle x1="-1.625" y1="-1.625" x2="1.625" y2="1.625" layer="31"/>
 <rectangle x1="-1.7" y1="-1.7" x2="1.7" y2="1.7" layer="29"/>
@@ -1365,8 +1367,8 @@ Source: ww1.microchip.com/downloads/en/DeviceDoc/39605c.pdf</description>
 <vertex x="-0.375" y="0"/>
 </polygon>
 <rectangle x1="-0.55" y1="-0.75" x2="0.55" y2="0.75" layer="29" rot="R180"/>
-<text x="-0.7" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.7" y="-1.77" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.7" y="1.11" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.7" y="-1.29" size="0.4064" layer="27">&gt;VALUE</text>
 <wire x1="-0.5" y1="-0.5" x2="0.5" y2="-0.5" width="0.05" layer="51"/>
 <wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.05" layer="51"/>
 <wire x1="0.5" y1="0.5" x2="-0.5" y2="0.5" width="0.05" layer="51"/>
@@ -1392,7 +1394,7 @@ Source: ww1.microchip.com/downloads/en/DeviceDoc/39605c.pdf</description>
 <smd name="6" x="2.2" y="-0.325" dx="1.4" dy="0.4" layer="1"/>
 <smd name="7" x="2.2" y="0.325" dx="1.4" dy="0.4" layer="1"/>
 <smd name="8" x="2.2" y="0.975" dx="1.4" dy="0.4" layer="1"/>
-<text x="-2.925" y="1.625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.925" y="1.625" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-3.05" y="-2.225" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.6" y1="0.85" x2="-1.6" y2="1.1" layer="51"/>
 <rectangle x1="-2.6" y1="0.2" x2="-1.6" y2="0.45" layer="51"/>
@@ -1634,7 +1636,7 @@ Source: www.hittite.com .. hmc492lp3.pdf</description>
 <smd name="14" x="0.25" y="1.4" dx="0.5" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
 <smd name="15" x="-0.25" y="1.4" dx="0.5" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
 <smd name="16" x="-0.75" y="1.4" dx="0.5" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
-<text x="-1.505" y="1.805" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.235" y="0.535" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.505" y="-2.375" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="29"/>
 <rectangle x1="-0.925" y1="-0.925" x2="0.925" y2="0.925" layer="31"/>
@@ -1907,8 +1909,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="4.064" y1="-0.8382" x2="3.81" y2="-0.8382" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="-0.8382" x2="3.81" y2="-0.4572" width="0.1524" layer="21"/>
 <text x="-3.6576" y="2.1844" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-4.445" y="3.1242" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.5372" y="-5.2578" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.397" y="1.0922" size="0.8128" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.7272" y="-1.4478" size="0.8128" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2052,8 +2054,8 @@ at 28/03/2012 12:54:09</description>
 <wire x1="0.8636" y1="-0.4826" x2="0.8636" y2="0.4826" width="0" layer="51"/>
 <wire x1="0.381" y1="0.4826" x2="-0.381" y2="0.4826" width="0" layer="51"/>
 <wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.0744" y="0.63" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.0744" y="-0.945" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="CAPC1005X60N">
 <smd name="1" x="-0.4826" y="0" dx="0.4572" dy="0.6096" layer="1"/>
@@ -2068,8 +2070,8 @@ at 28/03/2012 12:54:09</description>
 <wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
 <wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
 <wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.7344" y="0.47" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.7344" y="-0.775" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2259,8 +2261,8 @@ at 21/03/2012 16:17:53</description>
 <wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
 <wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
 <wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.2144" y="0.63" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.2144" y="-1.095" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="RESC1005X40N">
 <smd name="1" x="-0.5842" y="0" dx="0.6604" dy="0.6096" layer="1"/>
@@ -2275,8 +2277,8 @@ at 21/03/2012 16:17:53</description>
 <wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
 <wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
 <wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.7344" y="0.63" size="0.6096" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.8944" y="-0.775" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2290,8 +2292,8 @@ at 21/03/2012 16:17:53</description>
 <wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
-<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="1.1958" y="-2.9776" size="1.016" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="1.1506" y="1.9686" size="0.6096" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6207,8 +6209,8 @@ This is the very popular, low cost, very low power RF transceiver from Nordic Se
 <wire x1="0.5" y1="0.225" x2="0.5" y2="-0.225" width="0.127" layer="51"/>
 <smd name="2" x="0.4125" y="0" dx="0.375" dy="0.65" layer="1"/>
 <smd name="1" x="-0.4125" y="0" dx="0.375" dy="0.65" layer="1"/>
-<text x="-3.2" y="0.9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.3" y="-1.8" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.48" y="0.58" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.42" y="-0.84" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="WE-KI_0603A">
 <description>SMD Wire Wound Ceramic Inductor WE-KI</description>
@@ -7986,7 +7988,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R7" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-07220KL" device="" value="220K Ohms"/>
 <part name="R1" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-0722KL" device="" value="22K Ohms"/>
 <part name="R2" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-0720KL" device="" value="20K Ohms"/>
-<part name="R19" library="(manufact)-resistors-YAGEO-element14" deviceset="RT0603FRE0782KL" device="" value="88.7K EDIT"/>
+<part name="R19" library="(manufact)-resistors-YAGEO-element14" deviceset="RT0603FRE0782KL" device="" value="82K Ohms"/>
 <part name="C11" library="(manufact)-capacitors-AVX-element14" deviceset="UQCL2A150JAT2A/500" device="" value="15pF"/>
 <part name="C12" library="(manufact)-capacitors-AVX-element14" deviceset="UQCL2A150JAT2A/500" device="" value="15pF"/>
 <part name="GNDI14" library="supply1" deviceset="GNDI" device=""/>
@@ -8039,7 +8041,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R9" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-073K3L" device="" value="3.3K Ohms"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R20" library="(manufact)-resistors-YAGEO-element14" deviceset="RT0603FRE0782KL" device="" value="88.7K EDIT"/>
+<part name="R20" library="(manufact)-resistors-YAGEO-element14" deviceset="RT0603FRE0782KL" device="" value="82K Ohms"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="R22" library="(manufact)-resistors-YAGEO-element14" deviceset="RC0603FR-073K3L" device="" value="3.3K Ohms"/>
 <part name="GNDI20" library="supply1" deviceset="GNDI" device=""/>
