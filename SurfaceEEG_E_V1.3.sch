@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -53,6 +53,7 @@
 <layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -90,6 +91,7 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="bLogo" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
@@ -161,7 +163,7 @@
 <smd name="6" x="2.2" y="-0.325" dx="1.4" dy="0.4" layer="1"/>
 <smd name="7" x="2.2" y="0.325" dx="1.4" dy="0.4" layer="1"/>
 <smd name="8" x="2.2" y="0.975" dx="1.4" dy="0.4" layer="1"/>
-<text x="-2.925" y="1.625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.925" y="1.625" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-3.05" y="-2.225" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.6" y1="0.85" x2="-1.6" y2="1.1" layer="51"/>
 <rectangle x1="-2.6" y1="0.2" x2="-1.6" y2="0.45" layer="51"/>
@@ -286,8 +288,8 @@ at 30/04/2012 16:26:10</description>
 <wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
 <wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
 <wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.5744" y="0.63" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.5744" y="-0.775" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="CAPC1608X90N">
 <smd name="1" x="-0.8128" y="0" dx="0.8636" dy="0.9652" layer="1"/>
@@ -302,8 +304,8 @@ at 30/04/2012 16:26:10</description>
 <wire x1="0.8636" y1="-0.4826" x2="0.8636" y2="0.4826" width="0.1524" layer="51"/>
 <wire x1="0.381" y1="0.4826" x2="-0.381" y2="0.4826" width="0.1524" layer="51"/>
 <wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0.1524" layer="51"/>
-<text x="-4.5212" y="1.0414" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.7404" y="-3.2258" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.0012" y="0.7214" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.9404" y="-0.9858" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -489,8 +491,8 @@ at 21/03/2012 16:17:53</description>
 <wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
 <wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
 <wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.2144" y="0.63" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.2144" y="-1.095" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -504,8 +506,8 @@ at 21/03/2012 16:17:53</description>
 <wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
-<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="1.1958" y="-2.9776" size="1.016" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="1.1506" y="1.9686" size="0.6096" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -604,8 +606,8 @@ at 28/03/2012 12:54:09</description>
 <wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
 <wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
 <wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.7344" y="0.47" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.7344" y="-0.775" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
